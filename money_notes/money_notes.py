@@ -68,8 +68,13 @@ if __name__ == "__main__":
 		money = float(raw_input("Pay here: "))
 
 	change = round(money,2) - round(price,2)
+<<<<<<< HEAD
 	print "Your change: ", 
 	change_100 = round(change,2)*100
+=======
+	change_100 = round(change,2)*100
+	print "Your change: ", change
+>>>>>>> 4acf8a540f1f354ad7bb8212bcc5e7a329e4e820
 
 	nested_notes = notes50(int(change_100))
 	#print nested_notes
